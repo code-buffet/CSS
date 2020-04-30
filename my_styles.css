@@ -1,0 +1,131 @@
+.top-container{
+  background-color: #e3fdfd;
+  position: relative;
+  padding-top: 100px;
+
+}
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 50px 0;
+}
+.middle-container{
+  margin:100px auto;
+}
+
+.my-profile{
+  width: 200px;
+}
+
+.footer-link{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+  margin: 50px auto ;
+  text-decoration: none;
+  padding-right: 50px;
+}
+.footer-link:hover {
+  color: black;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding-top: 20px;
+}
+
+body{
+  color: #40514E;
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Cookie', cursive;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  color: #66BFBF;
+  font-weight: bold;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:  #11999E;
+}
+
+.top-cloud{
+  position: absolute;
+  right:400px;
+  top: 50px;
+}
+
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  top: 400px;
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.code{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.chillies{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+.anime{
+  width: 30%;
+  margin: 0 auto 70px;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #d3d3d3;
+  border-width: 8px;
+  height: 0;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.myButton {
+	box-shadow: 0 10px 14px -7px #66bfbf;
+	background:linear-gradient(to bottom, #599bb3 5%, #66bfbf 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #e7eef0;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #66bfbf 5%, #599bb3 100%);
+	background-color:#66bfbf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
